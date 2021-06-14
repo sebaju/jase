@@ -1,0 +1,25 @@
+white:  		ffffff
+white_dark: 	ffffff
+top_white: 		000000
+top_white_dark: 000000
+red: 			ff0000
+red_dark: 		ff0000
+top_red: 		ffff00
+top_red_dark: 	ffff00
+blue: 			0000ff
+blue_dark: 		0000ff
+top_blue: 		00ffff
+top_blue_dark: 	00ffff
+
+pack_name: 		bruh
+pack_desc: 		urmomurmomm
+
+# if no icon is set or it cannot find the one put it generates one (but do not leave it empty or else bad things will happen)
+
+pack_icon:		a
+
+# hypixel bridge 99
+
+split_hieght:	99
+
+minecraft_folder: C:/users/salvador/desktop

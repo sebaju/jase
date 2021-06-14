@@ -1,0 +1,4 @@
+shutil
+pillow
+requests
+os

@@ -49,4 +49,3 @@ Generates an overlay with **seamless textures** and a **height limit discoloring
 - SLOC: `338`
 - Color channels: `2`
 - Customizable colors: `12`
->>>>>>> 42ba9bbf703d13432c6fbaa00d8edb7388744ec0

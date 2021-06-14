@@ -13,4 +13,4 @@ def update():
         else:
             return True
     else:
-        return
+        pass

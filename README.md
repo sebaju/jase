@@ -26,7 +26,7 @@ Generates an overlay with **seamless textures** and a **height limit discoloring
  
 `$ pip -r requirements.txt`  
 
-2. Configure `config.txt` (and optionally `jasrc/config.py`)
+2. Configure `conf.txt` (and optionally `jasrc/config.py`)
 
 3. Run Jase with:  
 
@@ -34,7 +34,7 @@ Generates an overlay with **seamless textures** and a **height limit discoloring
 
 ### Args
 `-h OR --help` Display the help message.  
-`-c OR --config [CONFIGFILE]`Use a config other than the default (config.txt).  
+`-c OR --config [CONFIGFILE]`Use a config other than the default (conf.txt).  
 `-m OR --minecraft` Output the resulting zip to the (.minecraft) dir defined in your configuration.  
 `-v OR --verbose` For verbosity.
 

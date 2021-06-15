@@ -6,21 +6,15 @@ def initfs(prefix, post=False):
     mcmetatemp = {
         "pack": {
         "pack_format": 1,
-        "description": jasrc.conf()['desc']
+        "description": jasrc.conf('pack_desc')
         }
     }
-
-    def defaulticon():
-        jasrc.initicon()
-        if jasrc.tempconf()[3] == 'False':
-            print('Progress: %100')
-        jasrc.log('No icon found, using default template', 1)
-
+    
     def icon():
         try:
             shutil.copyfile(cfg['icon'], f'{prefix}/pack.png')
         except:
-            defaulticon()
+            jasrc.initicon()
 
     def mcmeta():
         with open(f'{prefix}/pack.mcmeta', 'w') as w:

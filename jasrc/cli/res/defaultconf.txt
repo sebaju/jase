@@ -1,3 +1,8 @@
+# Guidelines:
+#
+# DO NOT USE TABS! USE SPACES INSTEAD
+# if no icon is set or it cannot find the one put it generates one
+
 white:              #4f7123
 white_border:       #4b6924
 top_white:          #4f7123
@@ -11,9 +16,15 @@ blue_border:        #4b6924
 top_blue:           #4f7123
 top_blue_border:    #4b6924
 
-pack_name:          !    bribitch
-pack_desc:          sciencecraft server !!
+pack_name:          
+pack_desc:          
 
-pack_icon:
+pack_icon:          
 
-split_hieght:       99
+#
+# Hypixel bridge: 99
+# Lunar bridge: 
+# MMC bridge: 
+#
+
+split_height:       {{1}}

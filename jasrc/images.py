@@ -72,7 +72,7 @@ def initimg(*cols):
         new = []
 
         for b in data:
-            if d == (255,255,255):
+            if b == (255,255,255):
                 new.append(htr(jasrc.conf()[col]))
             else:
                 new.append(htr(jasrc.conf()[cold]))

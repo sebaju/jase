@@ -1,5 +1,5 @@
-import jasrc.nutils
 import jasrc
+import jasrc.nutils
 
 def checkup():
     if jasrc.nutils.update() == True:

@@ -43,6 +43,7 @@ Generates an overlay with **seamless textures** and a **height limit discoloring
 - Texturing overlay using alpha.
 - Seamless generator using quadrants/9 segment sample textures for more seamless textures.
 - More confugurable color channels.
+- Better config
 
 ## More
 
